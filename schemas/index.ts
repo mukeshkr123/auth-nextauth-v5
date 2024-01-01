@@ -9,7 +9,7 @@ export const loginSchema = z.object({
   }),
 });
 
-export const registerSchema = z.object({
+export const RegisterSchema = z.object({
   email: z.string().email({
     message: "Email is required",
   }),
