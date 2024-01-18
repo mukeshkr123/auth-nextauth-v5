@@ -94,3 +94,9 @@ model Account {
   @@unique([provider, providerAccountId])
 }
 ```
+
+## Middleware and Login
+
+- Install next auth v5 `npm install next-auth@beta`
+
+- add this in .env file `AUTH_SECRET=MUERERERERERE`
